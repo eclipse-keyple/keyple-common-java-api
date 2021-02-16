@@ -9,13 +9,11 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a Keyple distributed local service extension.
- *
- * <p>Any Keyple distributed local extension must provide a factory that implements this interface.
+ * Generic type for a Keyple reader event (card insertion/removal/...).
  *
  * @since 2.0
  */
-public interface KeypleDistributedLocalServiceExtension {}
+public interface KeypleReaderEvent {}

@@ -9,14 +9,11 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a POJO used to carry the default selections response data.
- *
- * <p>A Keyple default selections response is the result of presenting a card to an observable
- * Keyple reader configured with a default selections request.
+ * Generic type for a POJO used to carry the known data content of a smart card.
  *
  * @since 2.0
  */
-public interface KeypleDefaultSelectionsResponse {}
+public interface KeypleSmartCard {}

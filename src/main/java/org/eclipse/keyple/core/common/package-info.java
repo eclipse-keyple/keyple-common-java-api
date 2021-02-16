@@ -3,4 +3,4 @@
  *
  * @since 2.0
  */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;

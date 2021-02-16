@@ -9,13 +9,14 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a factory of Keyple distributed local service extension.
+ * Generic type for a POJO used to carry the default selections response data.
  *
- * <p>Any Keyple distributed local extension must provide a factory that implements this interface.
+ * <p>A Keyple default selections response is the result of presenting a card to an observable
+ * Keyple reader configured with a default selections request.
  *
  * @since 2.0
  */
-public interface KeypleDistributedLocalServiceExtensionFactory {}
+public interface KeypleDefaultSelectionsResponse {}

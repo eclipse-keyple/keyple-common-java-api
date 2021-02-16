@@ -9,14 +9,15 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a POJO used to carry the default selections request data.
+ * Generic type for a Keyple plugin extension.
  *
- * <p>A Keyple default selections request is created by a Keyple card extension and provided to an
- * observable Keyple reader.
+ * <p>A plugin extension brings the specific attributes of a plugin.
+ *
+ * <p>Any Keyple plugin must provide a factory that returns plugins implementing this interface.
  *
  * @since 2.0
  */
-public interface KeypleDefaultSelectionsRequest {}
+public interface KeyplePluginExtension {}

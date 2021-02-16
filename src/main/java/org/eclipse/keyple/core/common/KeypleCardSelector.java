@@ -9,11 +9,13 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a Keyple plugin event (reader connection/disconnection).
+ * Generic type for a POJO carrying card selection settings.
+ *
+ * <p>A Keyple card selector defines the settings of a card selection case.
  *
  * @since 2.0
  */
-public interface KeyplePluginEvent {}
+public interface KeypleCardSelector {}

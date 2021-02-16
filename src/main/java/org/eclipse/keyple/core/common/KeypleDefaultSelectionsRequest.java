@@ -9,18 +9,14 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * API properties
+ * Generic type for a POJO used to carry the default selections request data.
+ *
+ * <p>A Keyple default selections request is created by a Keyple card extension and provided to an
+ * observable Keyple reader.
  *
  * @since 2.0
  */
-public class CommonsApiProperties {
-  /**
-   * API version: {@value}
-   *
-   * @since 2.0
-   */
-  public static final String VERSION = "2.0";
-}
+public interface KeypleDefaultSelectionsRequest {}

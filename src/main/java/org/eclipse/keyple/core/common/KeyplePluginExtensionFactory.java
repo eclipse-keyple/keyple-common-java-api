@@ -9,15 +9,13 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a Keyple plugin extension.
+ * Generic type for a factory of Keyple plugin extension.
  *
- * <p>A plugin extension brings the specific attributes of a plugin.
- *
- * <p>Any Keyple plugin must provide a factory that returns plugins implementing this interface.
+ * <p>Any Keyple plugin must provide a factory that implements this interface.
  *
  * @since 2.0
  */
-public interface KeyplePluginExtension {}
+public interface KeyplePluginExtensionFactory {}

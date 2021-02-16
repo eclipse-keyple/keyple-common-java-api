@@ -9,11 +9,18 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a POJO used to carry the known data content of a smart card.
+ * API properties
  *
  * @since 2.0
  */
-public interface KeypleSmartCard {}
+public class CommonsApiProperties {
+  /**
+   * API version: {@value}
+   *
+   * @since 2.0
+   */
+  public static final String VERSION = "2.0";
+}

@@ -9,15 +9,11 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a Keyple reader extension.
- *
- * <p>A reader extension brings the specific attributes of a reader.
- *
- * <p>Any Keyple plugin must provide readers implementing this interface.
+ * Generic type for a Keyple plugin event (reader connection/disconnection).
  *
  * @since 2.0
  */
-public interface KeypleReaderExtension {}
+public interface KeyplePluginEvent {}
