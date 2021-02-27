@@ -9,6 +9,7 @@ plugins {
 }
 buildscript {
     repositories {
+        mavenLocal()
         maven(url = "https://repo.eclipse.org/service/local/repositories/maven_central/content")
         mavenCentral()
     }
@@ -71,7 +72,7 @@ tasks {
     }
     sonarqube {
         properties {
-            property("sonar.projectKey", "eclipse_keyple-gradle")
+            property("sonar.projectKey", "eclipse_" + project.name)
             property("sonar.organization", "eclipse")
             property("sonar.host.url", "https://sonarcloud.io")
             property("sonar.login", System.getenv("SONAR_LOGIN"))
