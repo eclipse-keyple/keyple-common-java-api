@@ -68,7 +68,7 @@ pipeline {
     }
     stage('Publish packaging to Eclipse') {
       when { expression { deploySnapshot || deployRelease } }
-      steps { container('java-builder') { sh 'publish_packaging' } }
+      steps { container('java-builder') { sshagent(['projects-storage.eclipse.org-bot-ssh']) { sh 'publish_packaging' } } }
     }
   }
   post { always { container('java-builder') {
