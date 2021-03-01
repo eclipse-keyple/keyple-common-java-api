@@ -1,5 +1,5 @@
 /**
- * Common interfaces useful for exchanges between the different Keyple modules.
+ * Common interfaces useful for exchanges between the different Keyple components.
  *
  * @since 2.0
  */
