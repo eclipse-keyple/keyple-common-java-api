@@ -12,11 +12,11 @@
 package org.eclipse.keyple.core.common;
 
 /**
- * Generic type for a POJO used to carry the default selections request data.
+ * Generic type for a POJO used to carry the response of a card selection request.
  *
- * <p>A Keyple default selections request is created by a Keyple card extension and provided to an
- * observable Keyple reader.
+ * <p>A card selection response is the result of presenting a card to an observable reader in a
+ * selection scenario.
  *
  * @since 2.0
  */
-public interface KeypleDefaultSelectionsRequest {}
+public interface KeypleCardSelectionResponse {}
