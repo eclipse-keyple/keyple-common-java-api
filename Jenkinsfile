@@ -1,7 +1,7 @@
 #!groovy
 pipeline {
   environment {
-    PROJECT_NAME = "keyple-common-java-lib"
+    PROJECT_NAME = "keyple-common-java-api"
     PROJECT_BOT_NAME = "Eclipse Keyple Bot"
   }
   agent { kubernetes { yaml javaBuilder('2.0') } }
