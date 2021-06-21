@@ -13,13 +13,33 @@ package org.eclipse.keyple.core.commons;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Properties;
 import org.eclipse.keyple.core.common.CommonsApiProperties;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class CommonsApiPropertiesTest {
 
+  private static String libVersion;
+
+  @BeforeClass
+  public static void beforeClass() throws Exception {
+    InputStream inputStream = new FileInputStream("gradle.properties");
+    try {
+      Properties properties = new Properties();
+      properties.load(inputStream);
+      libVersion = properties.getProperty("version");
+    } finally {
+      inputStream.close();
+    }
+  }
+
   @Test
   public void versionIsCorrectlyWritten() {
-    assertThat(CommonsApiProperties.VERSION).matches("\\d+(\\.\\d+)+");
+    String apiVersion = CommonsApiProperties.VERSION;
+    assertThat(apiVersion).matches("\\d+\\.\\d+");
+    assertThat(libVersion).startsWith(apiVersion);
   }
 }
