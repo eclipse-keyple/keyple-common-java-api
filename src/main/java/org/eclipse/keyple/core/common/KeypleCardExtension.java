@@ -35,10 +35,10 @@ public interface KeypleCardExtension {
   String getCardApiVersion();
 
   /**
-   * Gets the Commons API version used at compile time
+   * Gets the Common API version used at compile time
    *
    * @return A not empty String.
    * @since 2.0
    */
-  String getCommonsApiVersion();
+  String getCommonApiVersion();
 }

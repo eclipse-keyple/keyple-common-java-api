@@ -1,8 +1,8 @@
-# Keyple Java Commons API
+# Keyple Java Common API
 
 ## Overview
 
-The **Keyple Commons API** Java library contains the interfaces of the objects that are involved in the public interactions of the different Keyple components.
+The **Keyple Common API** Java library contains the interfaces of the objects that are involved in the public interactions of the different Keyple components.
 
 This library **should not be imported explicitly because it's imported by transitivity** by the main libraries.
 

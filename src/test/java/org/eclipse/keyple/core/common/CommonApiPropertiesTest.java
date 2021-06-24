@@ -9,18 +9,17 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.eclipse.keyple.core.commons;
+package org.eclipse.keyple.core.common;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
-import org.eclipse.keyple.core.common.CommonsApiProperties;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class CommonsApiPropertiesTest {
+public class CommonApiPropertiesTest {
 
   private static String libVersion;
 
@@ -38,7 +37,7 @@ public class CommonsApiPropertiesTest {
 
   @Test
   public void versionIsCorrectlyWritten() {
-    String apiVersion = CommonsApiProperties.VERSION;
+    String apiVersion = CommonApiProperties.VERSION;
     assertThat(apiVersion).matches("\\d+\\.\\d+");
     assertThat(libVersion).startsWith(apiVersion);
   }
