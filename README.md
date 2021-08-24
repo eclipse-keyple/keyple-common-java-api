@@ -1,14 +1,18 @@
-# Keyple Java Common API
+# Keyple Common Java API
 
 ## Overview
 
-The **Keyple Common API** Java library contains the interfaces of the objects that are involved in the public interactions of the different Keyple components.
+The **Keyple Common** Java API contains the interfaces of the objects that are involved in the public interactions of the different Keyple components.
 
-This library **should not be imported explicitly because it's imported by transitivity** by the main libraries.
+This library **should be imported explicitly** by the main application.
 
 ## User Guide & Download Information
 
 The full documentation, including download information is available in the **Documentation** section of the official Keyple website [keyple.org](https://keyple.org)
+
+## Javadoc
+
+The javadoc is available online: [eclipse.github.io/keyple-common-java-api/](https://eclipse.github.io/keyple-common-java-api/)
 
 ## Build the Code
 
