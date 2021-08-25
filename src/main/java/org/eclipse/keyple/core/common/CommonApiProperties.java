@@ -14,13 +14,13 @@ package org.eclipse.keyple.core.common;
 /**
  * API properties
  *
- * @since 2.0
+ * @since 2.0.0
  */
 public class CommonApiProperties {
   /**
    * API version: {@value}
    *
-   * @since 2.0
+   * @since 2.0.0
    */
   public static final String VERSION = "2.0";
 

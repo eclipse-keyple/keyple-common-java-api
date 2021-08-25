@@ -14,7 +14,7 @@ package org.eclipse.keyple.core.common;
 /**
  * Generic type for a Keyple card extension.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 public interface KeypleCardExtension {
 
@@ -22,7 +22,7 @@ public interface KeypleCardExtension {
    * Gets the Reader API version used at compile time
    *
    * @return A not empty String.
-   * @since 2.0
+   * @since 2.0.0
    */
   String getReaderApiVersion();
 
@@ -30,7 +30,7 @@ public interface KeypleCardExtension {
    * Gets the Card API version used at compile time
    *
    * @return A not empty String.
-   * @since 2.0
+   * @since 2.0.0
    */
   String getCardApiVersion();
 
@@ -38,7 +38,7 @@ public interface KeypleCardExtension {
    * Gets the Common API version used at compile time
    *
    * @return A not empty String.
-   * @since 2.0
+   * @since 2.0.0
    */
   String getCommonApiVersion();
 }

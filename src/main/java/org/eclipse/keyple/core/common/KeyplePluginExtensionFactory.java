@@ -16,6 +16,6 @@ package org.eclipse.keyple.core.common;
  *
  * <p>Any Keyple plugin must provide a factory that implements this interface.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 public interface KeyplePluginExtensionFactory {}

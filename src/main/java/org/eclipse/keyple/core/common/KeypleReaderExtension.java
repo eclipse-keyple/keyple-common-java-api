@@ -18,6 +18,6 @@ package org.eclipse.keyple.core.common;
  *
  * <p>Any Keyple plugin must provide readers implementing this interface.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 public interface KeypleReaderExtension {}
