@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"org.eclipse.keyple.core.common","c":"KeypleCardExtension","l":"getCardApiVersion()"},{"p":"org.eclipse.keyple.core.common","c":"KeypleCardExtension","l":"getCommonApiVersion()"},{"p":"org.eclipse.keyple.core.common","c":"KeypleCardExtension","l":"getReaderApiVersion()"},{"p":"org.eclipse.keyple.core.common","c":"CommonApiProperties","l":"VERSION"}]
