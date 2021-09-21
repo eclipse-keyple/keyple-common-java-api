@@ -1,3 +1,3 @@
-## Eclipse Keyple Common Java API
+## Keyple Common Java API
 
 {% include_relative list_versions.md %}
