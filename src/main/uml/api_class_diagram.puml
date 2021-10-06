@@ -1,6 +1,6 @@
 @startuml
 title
-    Keyple 2.0 - keyple-common-java-api - 2.0 (24/06/2021)
+    Keyple - keyple-common-java-api - 2.0.+ (24/06/2021)
 end title
 
 ' == THEME ==
