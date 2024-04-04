@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added project status badges on `README.md` file.
 ### Fixed
 - CI: code coverage report when releasing.
+### Changed
+- Java source and target levels `1.6` -> `1.8`
+### Upgraded
+- Gradle `6.8.3` -> `7.6.4`
 
 ## [2.0.0] - 2021-10-06
 This is the initial release.
