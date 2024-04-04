@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.eclipse.keyple.core.common"}]
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.eclipse.keyple.core.common"}];updateSearchResults();
