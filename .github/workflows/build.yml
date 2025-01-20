@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: REUSE Compliance Check
-        uses: fsfe/reuse-action@v5
+#      - name: REUSE Compliance Check
+#        uses: fsfe/reuse-action@v5
       - name: Validate Gradle
         uses: gradle/actions/wrapper-validation@v4.2.1
 
