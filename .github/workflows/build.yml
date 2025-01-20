@@ -15,7 +15,7 @@ jobs:
       - name: REUSE Compliance Check
         uses: fsfe/reuse-action@v5
       - name: Validate Gradle
-        uses: gradle/validator@v1
+        uses: gradle/actions/wrapper-validation@v4.2.1
 
   build:
     needs: verify
